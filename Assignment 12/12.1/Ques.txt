@@ -1,0 +1,57 @@
+1>    Create the following tables.
+
+Hotel (Hotel_No, Name, Address)
+
+Room (Room_No, Hotel_No, Type, Price)
+
+Booking (Hotel_No, Guest_No, Date_From, Date_To, Room_No)
+
+Guest (Guest_No, Name, Address)
+
+ 
+
+A. Populate the tables and answer the following query using SQL.
+
+ 
+
+1. List the names and addresses of all guests in London, alphabetically ordered by name.
+
+ 
+
+2. List all double or family rooms with a price below £40.00 per night, in ascending order of price.
+
+ 
+
+3. List the bookings for which no date_to has been specified.
+
+ 
+
+4. How many hotels are there?
+
+ 
+
+5. What is the average price of a room?
+
+ 
+
+6. What is the total revenue per night from all double rooms?
+
+ 
+
+7. How many different guests have made bookings for August?
+
+ 
+
+8. List the details of all rooms at the Grosvenor Hotel, including the name of the guest staying in the room, if the room is occupied.
+
+ 
+
+9. What is the total income from bookings for the Grosvenor Hotel today?
+
+ 
+
+10. List the rooms that are currently unoccupied at the Grosvenor Hotel.
+
+ 
+
+B. Design an ER Model for an application where hotels are booked by guests wanting to go on a holiday in India or abroad. Your design should meet all requirements. Map into a relational model.
